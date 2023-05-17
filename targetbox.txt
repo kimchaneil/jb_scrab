@@ -3688,3 +3688,836 @@
  <p class="BtnArea">
  </p>
 </section>
+<section class="content_body" id="content_detail">
+ <div class="board_info">
+  <div class="Search_rss">
+   <form action="/board.es?mid=a10301000000&amp;bid=0007" class="Search" id="srhForm" method="post" name="srhForm">
+    <input name="mid" type="hidden" value="a10301000000"/>
+    <input name="bid" type="hidden" value="0007"/>
+    <input name="nPage" type="hidden" value="1"/>
+    <input name="b_list" type="hidden" value="10"/>
+    <input name="orderby" type="hidden" value=""/>
+    <input name="dept_code" type="hidden" value=""/>
+    <input name="tag" type="hidden" value=""/>
+    <input name="list_no" type="hidden" value=""/>
+    <input name="act" type="hidden" value="list"/>
+    <fieldset>
+     <legend class="blind">
+      학사정보 &gt; 학사공지 검색
+     </legend>
+     <span class="form-select">
+      <select id="select" name="keyField" title="검색어 분류를 선택하세요.">
+       <option selected="selected" value="">
+        제목
+       </option>
+       <option value="CONTENT">
+        내용
+       </option>
+       <option value="TC">
+        제목+내용
+       </option>
+       <option value="M_NAME">
+        작성부서
+       </option>
+      </select>
+     </span>
+     <span class="form-input">
+      <input name="keyWord" placeholder="검색어를 입력하세요" title="검색어를 입력하세요" type="text" value=""/>
+     </span>
+     <span class="form-btn">
+      <button class="Btn-Gray Xs" onclick="goPage('1'); return false;" type="submit">
+       검색
+      </button>
+     </span>
+     <a class="icon_rss" href="/rss/board.es?mid=a10301000000&amp;bid=0007" target="_blank" title="새창">
+      <span class="IR">
+       RSS
+      </span>
+     </a>
+    </fieldset>
+    <div>
+     <input name="_csrf" type="hidden" value="6e07be71-26e8-4991-9360-d9d02b6a4f1c"/>
+    </div>
+   </form>
+  </div>
+  <p class="page_info">
+   <span class="total_page">
+    전체
+    <b>
+     1,394건
+    </b>
+   </span>
+   <span class="current_page">
+    현재 페이지
+    <strong>
+     1
+    </strong>
+    /
+    <b>
+     140
+    </b>
+   </span>
+  </p>
+ </div>
+ <div class="tstyle_list">
+  <div class="IR">
+   학사정보 &gt; 학사공지 목록
+  </div>
+  <div class="dhead">
+   <ul>
+    <li class="W8 m-hidden">
+     번호
+    </li>
+    <li class="title">
+     제목
+    </li>
+    <li class="W13">
+     작성부서
+    </li>
+    <li class="W13">
+     등록일
+    </li>
+    <li class="W8">
+     첨부파일
+    </li>
+    <li class="W8 m-hidden">
+     조회수
+    </li>
+   </ul>
+  </div>
+  <div class="dbody" id="listView">
+   <ul>
+    <li class="W8 m-hidden">
+     1394
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=296175&amp;tag=&amp;nPage=1" onclick="goView('296175'); return false;" title="2023-S학기 중부대학교 현장실습학기제 안내">
+      <i class="xi-new">
+      </i>
+      <span class="sr-only">
+       새글
+      </span>
+      2023-S학기 중부대학교 현장실습학기제 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/05/17
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <img alt="4개의 첨부파일" src="/upload/skin/board/plani/attach.png" title="4개의 첨부파일"/>
+    </li>
+    <li class="W8 m-hidden">
+     15
+    </li>
+   </ul>
+   <div class="fileBox" id="list296175">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1393
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=296163&amp;tag=&amp;nPage=1" onclick="goView('296163'); return false;" title="2023학년도 1학기 등록금 분할 납부(4차) 안내">
+      <i class="xi-new">
+      </i>
+      <span class="sr-only">
+       새글
+      </span>
+      2023학년도 1학기 등록금 분할 납부(4차) 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     총무과(경리)
+    </li>
+    <li class="W13 m-br">
+     2023/05/17
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     17
+    </li>
+   </ul>
+   <div class="fileBox" id="list296163">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1392
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=296090&amp;tag=&amp;nPage=1" onclick="goView('296090'); return false;" title="하나VIVA G Platinum 국제학생증 체크카드 인증비 17,000원 지원 행사(~5/20일까지)">
+      <i class="xi-new">
+      </i>
+      <span class="sr-only">
+       새글
+      </span>
+      하나VIVA G Platinum 국제학생증 체크카드 인증비 17,000원 지원 행사(~5/20일까지)
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/05/15
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     112
+    </li>
+   </ul>
+   <div class="fileBox" id="list296090">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1391
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=296058&amp;tag=&amp;nPage=1" onclick="goView('296058'); return false;" title="2023학년도 교직 인·적성 검사 안내">
+      2023학년도 교직 인·적성 검사 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/05/12
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <a href="/boardDownload.es?bid=0007&amp;list_no=296058&amp;seq=1" title="2차 교직 적성 및 인성 검사표.hwp">
+      <img alt="2차 교직 적성 및 인성 검사표.hwp" onerror="this.src='/upload/skin/board/plani/file.png'" src="/upload/skin/board/plani/hwp.png"/>
+     </a>
+    </li>
+    <li class="W8 m-hidden">
+     135
+    </li>
+   </ul>
+   <div class="fileBox" id="list296058">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1390
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=296055&amp;tag=&amp;nPage=1" onclick="goView('296055'); return false;" title="2023학년도 성인지 교육 안내">
+      2023학년도 성인지 교육 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/05/12
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     143
+    </li>
+   </ul>
+   <div class="fileBox" id="list296055">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1389
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=296000&amp;tag=&amp;nPage=1" onclick="goView('296000'); return false;" title="2023학년도 하계 계절학기 운영계획 안내">
+      2023학년도 하계 계절학기 운영계획 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     학부행정실
+    </li>
+    <li class="W13 m-br">
+     2023/05/10
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <a href="/boardDownload.es?bid=0007&amp;list_no=296000&amp;seq=2" title="2023학년도 하계(S) 계절학기 개설교과목 리스트_20230515.xlsx">
+      <img alt="2023학년도 하계(S) 계절학기 개설교과목 리스트_20230515.xlsx" onerror="this.src='/upload/skin/board/plani/file.png'" src="/upload/skin/board/plani/xlsx.png"/>
+     </a>
+    </li>
+    <li class="W8 m-hidden">
+     596
+    </li>
+   </ul>
+   <div class="fileBox" id="list296000">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1388
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295948&amp;tag=&amp;nPage=1" onclick="goView('295948'); return false;" title="[학칙] 개정(안) 의견수렴">
+      [학칙] 개정(안) 의견수렴
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     기획예산과
+    </li>
+    <li class="W13 m-br">
+     2023/05/08
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     209
+    </li>
+   </ul>
+   <div class="fileBox" id="list295948">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1387
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295900&amp;tag=&amp;nPage=1" onclick="goView('295900'); return false;" title="부처님오신날 대체 공휴일 지정에 따른 학사일정 변경 안내">
+      부처님오신날 대체 공휴일 지정에 따른 학사일정 변경 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/05/04
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     562
+    </li>
+   </ul>
+   <div class="fileBox" id="list295900">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1386
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295818&amp;tag=&amp;nPage=1" onclick="goView('295818'); return false;" title="2023-1학기 중간강의평가에 대한 강의개선계획(CQI) 입력 안내">
+      2023-1학기 중간강의평가에 대한 강의개선계획(CQI) 입력 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/05/02
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <a href="/boardDownload.es?bid=0007&amp;list_no=295818&amp;seq=1" title="강의평가 강의개선계획 입력 안내(교수용).pdf">
+      <img alt="강의평가 강의개선계획 입력 안내(교수용).pdf" onerror="this.src='/upload/skin/board/plani/file.png'" src="/upload/skin/board/plani/pdf.png"/>
+     </a>
+    </li>
+    <li class="W8 m-hidden">
+     277
+    </li>
+   </ul>
+   <div class="fileBox" id="list295818">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1385
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295649&amp;tag=&amp;nPage=1" onclick="goView('295649'); return false;" title="2023학년도 1학기 등록금 3차 분할납부기간 연장 안내">
+      2023학년도 1학기 등록금 3차 분할납부기간 연장 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     총무과(경리)
+    </li>
+    <li class="W13 m-br">
+     2023/04/26
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     215
+    </li>
+   </ul>
+   <div class="fileBox" id="list295649">
+   </div>
+  </div>
+ </div>
+ <div class="board_pager">
+  <span class="inner">
+   <a class="pageFirst" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=1" onclick="goPage('1'); return false;">
+    <i class="xi-angle-left-min">
+    </i>
+    <span class="hidden">
+     처음
+    </span>
+   </a>
+   <a class="pagePrev" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=1" onclick="goPage('1'); return false;">
+    <i class="xi-angle-left-min">
+    </i>
+    <span class="hidden">
+     이전
+    </span>
+   </a>
+   <a class="pageNow" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=1" onclick="goPage('1'); return false;" title="1페이지">
+    <strong>
+     1
+    </strong>
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=2" onclick="goPage('2'); return false;">
+    2
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=3" onclick="goPage('3'); return false;">
+    3
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=4" onclick="goPage('4'); return false;">
+    4
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=5" onclick="goPage('5'); return false;">
+    5
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=6" onclick="goPage('6'); return false;">
+    6
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=7" onclick="goPage('7'); return false;">
+    7
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=8" onclick="goPage('8'); return false;">
+    8
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=9" onclick="goPage('9'); return false;">
+    9
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=10" onclick="goPage('10'); return false;">
+    10
+   </a>
+   <a class="pageNext" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=2" onclick="goPage('2'); return false;">
+    <i class="xi-angle-right-min">
+    </i>
+    <span class="hidden">
+     다음
+    </span>
+   </a>
+   <a class="pageLast" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=140" onclick="goPage('140'); return false;">
+    <i class="xi-angle-right-min">
+    </i>
+    <span class="hidden">
+     마지막
+    </span>
+   </a>
+  </span>
+ </div>
+ <p class="BtnArea">
+ </p>
+</section>
+<section class="content_body" id="content_detail">
+ <div class="board_info">
+  <div class="Search_rss">
+   <form action="/board.es?mid=a10301000000&amp;bid=0007" class="Search" id="srhForm" method="post" name="srhForm">
+    <input name="mid" type="hidden" value="a10301000000"/>
+    <input name="bid" type="hidden" value="0007"/>
+    <input name="nPage" type="hidden" value="2"/>
+    <input name="b_list" type="hidden" value="10"/>
+    <input name="orderby" type="hidden" value=""/>
+    <input name="dept_code" type="hidden" value=""/>
+    <input name="tag" type="hidden" value=""/>
+    <input name="list_no" type="hidden" value=""/>
+    <input name="act" type="hidden" value="list"/>
+    <fieldset>
+     <legend class="blind">
+      학사정보 &gt; 학사공지 검색
+     </legend>
+     <span class="form-select">
+      <select id="select" name="keyField" title="검색어 분류를 선택하세요.">
+       <option selected="selected" value="">
+        제목
+       </option>
+       <option value="CONTENT">
+        내용
+       </option>
+       <option value="TC">
+        제목+내용
+       </option>
+       <option value="M_NAME">
+        작성부서
+       </option>
+      </select>
+     </span>
+     <span class="form-input">
+      <input name="keyWord" placeholder="검색어를 입력하세요" title="검색어를 입력하세요" type="text" value=""/>
+     </span>
+     <span class="form-btn">
+      <button class="Btn-Gray Xs" onclick="goPage('1'); return false;" type="submit">
+       검색
+      </button>
+     </span>
+     <a class="icon_rss" href="/rss/board.es?mid=a10301000000&amp;bid=0007" target="_blank" title="새창">
+      <span class="IR">
+       RSS
+      </span>
+     </a>
+    </fieldset>
+    <div>
+     <input name="_csrf" type="hidden" value="12347adf-b775-46ff-a542-34d59a8b2857"/>
+    </div>
+   </form>
+  </div>
+  <p class="page_info">
+   <span class="total_page">
+    전체
+    <b>
+     1,394건
+    </b>
+   </span>
+   <span class="current_page">
+    현재 페이지
+    <strong>
+     2
+    </strong>
+    /
+    <b>
+     140
+    </b>
+   </span>
+  </p>
+ </div>
+ <div class="tstyle_list">
+  <div class="IR">
+   학사정보 &gt; 학사공지 목록
+  </div>
+  <div class="dhead">
+   <ul>
+    <li class="W8 m-hidden">
+     번호
+    </li>
+    <li class="title">
+     제목
+    </li>
+    <li class="W13">
+     작성부서
+    </li>
+    <li class="W13">
+     등록일
+    </li>
+    <li class="W8">
+     첨부파일
+    </li>
+    <li class="W8 m-hidden">
+     조회수
+    </li>
+   </ul>
+  </div>
+  <div class="dbody" id="listView">
+   <ul>
+    <li class="W8 m-hidden">
+     1384
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295560&amp;tag=&amp;nPage=2" onclick="goView('295560'); return false;" title="2023-2학기 해외 파견 교환학생 프로그램 신청 안내">
+      2023-2학기 해외 파견 교환학생 프로그램 신청 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     국제교류원
+    </li>
+    <li class="W13 m-br">
+     2023/04/21
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <img alt="2개의 첨부파일" src="/upload/skin/board/plani/attach.png" title="2개의 첨부파일"/>
+    </li>
+    <li class="W8 m-hidden">
+     923
+    </li>
+   </ul>
+   <div class="fileBox" id="list295560">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1383
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295544&amp;tag=&amp;nPage=2" onclick="goView('295544'); return false;" title="2023-1학기 중간강의평가 실시기간 연장 안내">
+      2023-1학기 중간강의평가 실시기간 연장 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/04/20
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <a href="/boardDownload.es?bid=0007&amp;list_no=295544&amp;seq=1" title="강의평가 방법 안내(학생용).pdf">
+      <img alt="강의평가 방법 안내(학생용).pdf" onerror="this.src='/upload/skin/board/plani/file.png'" src="/upload/skin/board/plani/pdf.png"/>
+     </a>
+    </li>
+    <li class="W8 m-hidden">
+     492
+    </li>
+   </ul>
+   <div class="fileBox" id="list295544">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1382
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295507&amp;tag=&amp;nPage=2" onclick="goView('295507'); return false;" title="2023학년도 1학기 등록금 3차 분할납부 안내">
+      2023학년도 1학기 등록금 3차 분할납부 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     총무과(경리)
+    </li>
+    <li class="W13 m-br">
+     2023/04/19
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     205
+    </li>
+   </ul>
+   <div class="fileBox" id="list295507">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1381
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295451&amp;tag=&amp;nPage=2" onclick="goView('295451'); return false;" title="2023학년도 재학생(내, 외국인) 영어프레젠테이션 대회 신청 접수">
+      2023학년도 재학생(내, 외국인) 영어프레젠테이션 대회 신청 접수
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     국제교류원
+    </li>
+    <li class="W13 m-br">
+     2023/04/17
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <a href="/boardDownload.es?bid=0007&amp;list_no=295451&amp;seq=1" title="붙임 2023학년도 영어프레젠테이션 대회 참가신청서.hwp">
+      <img alt="붙임 2023학년도 영어프레젠테이션 대회 참가신청서.hwp" onerror="this.src='/upload/skin/board/plani/file.png'" src="/upload/skin/board/plani/hwp.png"/>
+     </a>
+    </li>
+    <li class="W8 m-hidden">
+     634
+    </li>
+   </ul>
+   <div class="fileBox" id="list295451">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1380
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295413&amp;tag=&amp;nPage=2" onclick="goView('295413'); return false;" title="2023학년도 여름계절학기 교양과목 개설 수요조사 안내">
+      2023학년도 여름계절학기 교양과목 개설 수요조사 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     학생성장교양학부
+    </li>
+    <li class="W13 m-br">
+     2023/04/14
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <img alt="2개의 첨부파일" src="/upload/skin/board/plani/attach.png" title="2개의 첨부파일"/>
+    </li>
+    <li class="W8 m-hidden">
+     645
+    </li>
+   </ul>
+   <div class="fileBox" id="list295413">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1379
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295312&amp;tag=&amp;nPage=2" onclick="goView('295312'); return false;" title="2023년 제2차 평생교육사 자격증 발급 신청 공고 안내">
+      2023년 제2차 평생교육사 자격증 발급 신청 공고 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/04/11
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <a href="/boardDownload.es?bid=0007&amp;list_no=295312&amp;seq=1" title="신청매뉴얼 및 서식 1부.zip.zip">
+      <img alt="신청매뉴얼 및 서식 1부.zip.zip" onerror="this.src='/upload/skin/board/plani/file.png'" src="/upload/skin/board/plani/zip.png"/>
+     </a>
+    </li>
+    <li class="W8 m-hidden">
+     309
+    </li>
+   </ul>
+   <div class="fileBox" id="list295312">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1378
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=295211&amp;tag=&amp;nPage=2" onclick="goView('295211'); return false;" title="2023-1학기 중간강의평가 실시 안내">
+      2023-1학기 중간강의평가 실시 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/04/05
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+     <a href="/boardDownload.es?bid=0007&amp;list_no=295211&amp;seq=1" title="강의평가 방법 안내(학생용).pdf">
+      <img alt="강의평가 방법 안내(학생용).pdf" onerror="this.src='/upload/skin/board/plani/file.png'" src="/upload/skin/board/plani/pdf.png"/>
+     </a>
+    </li>
+    <li class="W8 m-hidden">
+     885
+    </li>
+   </ul>
+   <div class="fileBox" id="list295211">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1377
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=294933&amp;tag=&amp;nPage=2" onclick="goView('294933'); return false;" title="반려동물학부 신입생 전공선호도 조사">
+      반려동물학부 신입생 전공선호도 조사
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/03/22
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     538
+    </li>
+   </ul>
+   <div class="fileBox" id="list294933">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1376
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=294924&amp;tag=&amp;nPage=2" onclick="goView('294924'); return false;" title="2023학년도 1학기 특별과정(컴활/MOS특강) 운영 안내">
+      2023학년도 1학기 특별과정(컴활/MOS특강) 운영 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     평생교육원
+    </li>
+    <li class="W13 m-br">
+     2023/03/21
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     509
+    </li>
+   </ul>
+   <div class="fileBox" id="list294924">
+   </div>
+   <ul>
+    <li class="W8 m-hidden">
+     1375
+    </li>
+    <li class="title">
+     <a href="/board.es?mid=a10301000000&amp;bid=0007&amp;act=view&amp;list_no=294901&amp;tag=&amp;nPage=2" onclick="goView('294901'); return false;" title="2023학번 신입생/편입생 학생증(체크카드) 발급 안내">
+      2023학번 신입생/편입생 학생증(체크카드) 발급 안내
+     </a>
+    </li>
+    <li aria-title="작성부서" class="W13 nowrap m-br">
+     교무과
+    </li>
+    <li class="W13 m-br">
+     2023/03/21
+    </li>
+    <li aria-title="첨부파일" class="W8 m-hidden file">
+    </li>
+    <li class="W8 m-hidden">
+     566
+    </li>
+   </ul>
+   <div class="fileBox" id="list294901">
+   </div>
+  </div>
+ </div>
+ <div class="board_pager">
+  <span class="inner">
+   <a class="pageFirst" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=1" onclick="goPage('1'); return false;">
+    <i class="xi-angle-left-min">
+    </i>
+    <span class="hidden">
+     처음
+    </span>
+   </a>
+   <a class="pagePrev" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=1" onclick="goPage('1'); return false;">
+    <i class="xi-angle-left-min">
+    </i>
+    <span class="hidden">
+     이전
+    </span>
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=1" onclick="goPage('1'); return false;">
+    1
+   </a>
+   <a class="pageNow" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=2" onclick="goPage('2'); return false;" title="2페이지">
+    <strong>
+     2
+    </strong>
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=3" onclick="goPage('3'); return false;">
+    3
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=4" onclick="goPage('4'); return false;">
+    4
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=5" onclick="goPage('5'); return false;">
+    5
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=6" onclick="goPage('6'); return false;">
+    6
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=7" onclick="goPage('7'); return false;">
+    7
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=8" onclick="goPage('8'); return false;">
+    8
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=9" onclick="goPage('9'); return false;">
+    9
+   </a>
+   <a class="pageNone" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=10" onclick="goPage('10'); return false;">
+    10
+   </a>
+   <a class="pageNext" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=3" onclick="goPage('3'); return false;">
+    <i class="xi-angle-right-min">
+    </i>
+    <span class="hidden">
+     다음
+    </span>
+   </a>
+   <a class="pageLast" href="/board.es?mid=a10301000000&amp;bid=0007&amp;nPage=140" onclick="goPage('140'); return false;">
+    <i class="xi-angle-right-min">
+    </i>
+    <span class="hidden">
+     마지막
+    </span>
+   </a>
+  </span>
+ </div>
+ <p class="BtnArea">
+ </p>
+</section>
