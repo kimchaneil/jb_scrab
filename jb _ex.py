@@ -7,7 +7,7 @@ filename = "학사공지 리스트.csv"
 if os.path.exists(filename):
     with open(filename,"w",encoding="utf-8-sig",newline=""):
         pass
-for x in range(1,3):
+for x in range(1,4):
     url = "https://www.joongbu.ac.kr/board.es?mid=a10301000000&bid=0007&nPage="+str(x)
 
     filename = "학사공지 리스트.csv"
