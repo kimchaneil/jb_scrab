@@ -5,18 +5,23 @@ import os
 x=1
 filename = "학사공지 리스트.csv"
 if os.path.exists(filename):
-    with open(filename,"w",encoding="utf-8-sig",newline=""):
+    with open(filename,"w",encoding="utf-8-sig",newline="")as f:
+        writer = csv.writer(f)
+        columns_name = ["페이지", "번호", "제목", "url"]
+        writer.writerow(columns_name)
         pass
 for x in range(1,4):
     url = "https://www.joongbu.ac.kr/board.es?mid=a10301000000&bid=0007&nPage="+str(x)
 
+    
     filename = "학사공지 리스트.csv"
     f = open(filename, "a", encoding="utf-8-sig", newline="")
     writer = csv.writer(f)
 
-    colums_name = ["페이지","번호","제목","url"]
+    #colums_name = ["페이지","번호","제목","url"]
 
-    writer.writerow(colums_name)
+    
+    #writer.writerow(colums_name)
 
     res = requests.get(url)
     res.raise_for_status()
@@ -32,6 +37,8 @@ for x in range(1,4):
         for target in targets:
             title=target.get("title")
             turl=target.get("href")
+            if "seq" in turl:
+                turl = targets[i-2].get("href")
             #print(f"{str(i)}: {title}")
             data = ['page'+str(x),'title:'+str(i),title,'https://www.joongbu.ac.kr'+turl]
             writer.writerow(data)

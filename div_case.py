@@ -29,7 +29,7 @@ for i in range(num_urls):
                     pass
             f = open(filename, "a", encoding="utf-8-sig", newline="")
             writer = csv.writer(f)
-            columns_name = ["url","content"]
+            columns_name = ["content"]
             data = [url,columns_name]
             writer.writerow(data)
             print("Case 1: tb_content -> p -> span")
@@ -42,7 +42,6 @@ for i in range(num_urls):
                 for target in targets:
                     bold = target.get_text()
                     content += bold + ' '
-
                 print(content)
                 data = [content]
                 writer.writerow(data)
@@ -62,10 +61,10 @@ for i in range(num_urls):
             with open(filename, "a", encoding="utf-8-sig", newline="") as f:
                 writer = csv.writer(f)
                 writer.writerow(["url","content"])  # CSV 파일의 헤더 쓰기
-
+                data = [url]
+                writer.writerow(data)
                 for paragraph in paragraphs:
-                    content = paragraph.get_text().strip()  # p 요소의 텍스트 추출
-                    data = [url,columns_name]
-                    writer.writerow(data)  # CSV 파일에 한 줄씩 쓰기
+                    content = paragraph.get_text().strip() # p 요소의 텍스트 추출
+                    writer.writerow([content])  # CSV 파일에 한 줄씩 쓰기
 
 client.close()
