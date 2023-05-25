@@ -2,6 +2,7 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 import os
+import subprocess
 x=1
 filename = "학사공지 리스트.csv"
 if os.path.exists(filename):
@@ -48,6 +49,6 @@ for x in range(1,4):
             f.write(targetbox.prettify())
     else:
         print("목록을 찾을 수 없습니다.")
-    x +=1 
-    
+    x +=1  
 f.close()
+subprocess.run(["python","./jb_scrab/data_base.py"]) 

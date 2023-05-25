@@ -7,7 +7,7 @@ db = client['chat']  # 데이터베이스 선택
 collection = db['content']  # 컬렉션 선택
 
 # CSV 파일 읽기
-data = pd.read_csv('case1_content.csv')
+data = pd.read_csv('case2_content.csv')
 url = data.iloc[0,0]
 # 데이터 변환 및 MongoDB에 삽입
 document = {
